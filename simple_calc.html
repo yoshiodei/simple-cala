@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Calculator</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="simple_calc.css" type="text/css" >
+	</head>
+	<body>
+	    <div class="wrapper">
+            <p class="kazio">Kazio</p>
+	        <form id="calc">
+	        	<div >
+	        	    <input id="screen" type="text" readonly name="text-field">	
+	        	</div>
+	        	<div class="button__row">
+	        	<div class="row">
+	        		<input type="button" value="c">
+	        	    <input type="button" value="<">
+	        	    <input type="button" value="00">
+	        	    <input type="button" value="/">
+	        	</div>
+	        	<div class="row">
+	        		<input type="button" value="7">
+	        		<input type="button" value="8">
+	        		<input type="button" value="9">
+	        		<input type="button" value="*">
+	            </div>
+	            <div class="row">
+	        		<input type="button" value="4">
+	        		<input type="button" value="5">
+	        		<input type="button" value="6">
+	        		<input type="button" value="-">
+	            </div>
+	            <div class="row">
+	        		<input type="button" value="1">
+	        		<input type="button" value="2">
+	        		<input type="button" value="3">
+	        		<input type="button" value="+">
+	            </div>
+	            <div class="row">
+	        		<input type="button" readonly value="0" class="dbl">
+	        		<input type="button" value=".">
+                    <button value="=">=</button>
+	            </div>
+	            </div>
+	        </form>	
+	    </div>
+	</body>
+	<script src="simple_calc.js"></script>
+</html>
